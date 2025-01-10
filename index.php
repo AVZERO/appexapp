@@ -13,9 +13,12 @@ session_start();
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <body>
     <header>
-        <div class="header-content">
-            <img src="logo1.png" alt="School Logo" class="logo">
-        </div>
+    <div class="header-content">
+    <a href="index.php">
+        <img src="img/logo1.png" alt="School Logo" class="logo">
+    </a>
+</div>
+
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -36,9 +39,9 @@ session_start();
                         ?>
                     </ul>
                 </li>
-                <li><a href="#">Academics</a></li>
+                <li><a href="Academics.php">Academics</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="Apply now.php">Apply Now</a></li>
+                <li><a href="ApplyNow.php">Apply Now</a></li>
             </ul>
         </nav>
     </header>
@@ -71,32 +74,32 @@ session_start();
         <div class="card">
             <img src="img/18.jpg" alt="Event Image" class="card-img">
             <div class="card-content">
-                <span class="category">UNCATEGORIZED</span>
-                <h2>KATIKKIRO'S MESSAGE AT 10 YEARS CELEBRATION</h2>
-                <p class="author">HERITAGE FAITH — Aug 07, 2024</p>
+                <span class="category">PREFFECTS HAND OVER</span>
+                <h2>CELEBRATING THE PREFFECTS</h2>
+                <p class="author">CHAIR PERSON ELECTRO COMMISION</p>
             </div>
         </div>
 
         <div class="card">
             <img src="img/17.jpg" alt="School Image" class="card-img">
             <div class="card-content">
-                <span class="category">UNCATEGORIZED</span>
-                <h2>Embracing Change, A Journey of...</h2>
+                <span class="category">P7 FAIR WELL PARTY</span>
+                <h2>Embracing Change</h2>
             </div>
         </div>
         <div class="card">
             <img src="img/16.jpg" alt="UCE Results" class="card-img">
             <div class="card-content">
-                <span class="category">UNCATEGORIZED</span>
-                <h2>UCE RESULTS 2023</h2>
+                <span class="category">PLE</span>
+                <h2>RESULTS 2023</h2>
             </div>
         </div>
         <div class="card">
             <img src="img/15.jpg" alt="Admissions" class="card-img">
             <div class="card-content">
-                <span class="category">UNCATEGORIZED</span>
-                <h2>S.1 & S.5 Admissions 2024</h2>
-                <p class="author">Goose — Feb 05, 2024</p>
+                <span class="category">MDD CELLEBRATIONS</span>
+                <h2>2024 MDD CELLEBRATIONS</h2>
+                <p class="author">AARON — JAN 05, 2025</p>
             </div>
         </div>
     </div>
@@ -112,7 +115,7 @@ session_start();
     </div>
     <div class="images">
         <div class="image-container">
-            <img src="img/13.jpg" alt="Community Event">
+            <img src="img/21.jpg" alt="Community Event">
         </div>
         <div class="image-container">
             <img src="img/14.jpg" alt="Teamwork Activity">
@@ -185,11 +188,8 @@ session_start();
                 <span>Emily Johnson @emilyjohnson</span>
             </div>
         </section>
-
-
-
-
-    <footer>
+        
+        <footer>
     <div class="footer-container">
         <div class="subscribe">
             <h2>Get the latest <span class="highlight">Apex News Letter</span> delivered to your inbox</h2>
@@ -222,17 +222,20 @@ session_start();
             <div class="connect">
                 <h3>Connect With Us</h3>
                 <div class="social-icons">
-                    <a href="https://wa.me/your-number" target="_blank">
+                    <a href="https://wa.me/+256760879571" target="_blank">
                         <img src="img/wapp.png" alt="WhatsApp">
                     </a>
                     <a href="https://facebook.com/your-page" target="_blank">
                         <img src="img/fb.png" alt="Facebook">
                     </a>
-                    <a href="https://instagram.com/your-page" target="_blank">
+                    <a href="https://www.instagram.com/apexschools13/?__pwa=1#" target="_blank">
                         <img src="img/insta.png" alt="Instagram">
                     </a>
                     <a href="https://tiktok.com/@your-page" target="_blank">
                         <img src="img/tik.png" alt="TikTok">
+                    </a>
+                    <a href="https://maps.app.goo.gl/kn2eLXufjXCRez4Q9" target="_blank">
+                        <img src="img/location.png" alt="Google Maps" title="Find Us on Google Maps">
                     </a>
                 </div>
             </div>
